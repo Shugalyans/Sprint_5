@@ -6,10 +6,10 @@ class StellarBurgersLocators:
     EMAIL_FIELD = (By.XPATH,".//main/div/form/fieldset[2]/div/div/input") # поле "E-mail" на странице регистрации
     PASSWORD_FIELD = (By.XPATH,".//main/div/form/fieldset[3]/div/div/input") # поле "Пароль" на странице регистрации
     SUBMIT_BUTTON = (By.XPATH,".//main/div/form/button") # кнопка "Зарегистрироваться" на странице регистрации
-    WRONG_PASSWORD = (By.XPATH,".//main/div/form/fieldset[3]/div/p") # информационная табличка "Некорректный пароль" на странице регистрации
-    USER_EXIST = (By.XPATH,".//main/div/p") # информационная табличка "Такой пользователь уже существует" на странице регистрации
+    WRONG_PASSWORD = (By.XPATH,".//main/div/form/fieldset[3]/div/p")  # информационная табличка "Некорректный пароль" на странице регистрации
+    USER_EXIST = (By.XPATH, ".//main/div/p")  # информационная табличка "Такой пользователь уже существует" на странице регистрации
     ENTER_BUTTON = (By.XPATH, ".//main/div/form/button") # кнопка "Войти" на странице входа в аккаунт
-    ENTER_BUTTON_MAIN_PAGE = (By.XPATH, ".//main/section[2]/div/button")  # кнопка "Войти в аккаунт" на главной странице
+    ENTER_BUTTON_MAIN_PAGE = (By.XPATH, "/html/body/div/div/main/section[2]/div/button")  # кнопка "Войти в аккаунт" на главной странице
     EMAIL_FIELD_MAIN_PAGE = (By.XPATH,".//main/div/form/fieldset[1]/div/div/input") # поле "e-mail" на странице входа в аккаунт
     PASSWORD_FIELD_MAIN_PAGE = (By.XPATH,".//main/div/form/fieldset[2]/div/div/input") # поле "Пароль" на странице входа в аккаунт
     ORDER_BUTTON = (By.XPATH,".//main/section[2]/div/button") # кнопка "Оформить заказ" на главной странице после входа в аккаунт

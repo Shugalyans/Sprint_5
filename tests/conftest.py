@@ -1,9 +1,8 @@
 import pytest
 from selenium import webdriver
 from config import URL,RESOLUTION
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
-from locators import StellarBurgersLocators
+from random import randint
+
 
 def browser_settings():
     chrome_options = webdriver.ChromeOptions()
@@ -17,3 +16,9 @@ def driver():
     chrome.get(URL)
     yield chrome
     chrome.quit()
+
+def get_sign_up_data():
+    email = f'email'+str(randint(0,1000))+'@mail.ru'
+    password = f'12345678'+str(randint(0,1000))
+    name = f'Михаил'+str(randint(0,1000))
+    return name,email,password

@@ -10,9 +10,9 @@ class TestStellarBurgersLogin():
 
        driver.find_element(*StellarBurgersLocators.ENTER_BUTTON_MAIN_PAGE).click()
 
-       driver.find_element(*StellarBurgersLocators.EMAIL_FIELD_MAIN_PAGE).send_keys("MikhailShemakhanskiy8111@yandex.ru")
+       driver.find_element(*StellarBurgersLocators.EMAIL_FIELD).send_keys("MikhailShemakhanskiy8111@yandex.ru")
 
-       driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD_MAIN_PAGE).send_keys("1234567")
+       driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD).send_keys("1234567")
 
        driver.find_element(*StellarBurgersLocators.ENTER_BUTTON).click()
 
@@ -25,9 +25,9 @@ class TestStellarBurgersLogin():
 
        driver.find_element(*StellarBurgersLocators.ENTER_BUTTON_MAIN_PAGE).click()
 
-       driver.find_element(*StellarBurgersLocators.EMAIL_FIELD_MAIN_PAGE).send_keys("MikhailShemakhanskiy8111@yandex.ru")
+       driver.find_element(*StellarBurgersLocators.EMAIL_FIELD).send_keys("MikhailShemakhanskiy8111@yandex.ru")
 
-       driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD_MAIN_PAGE).send_keys("1234567")
+       driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD).send_keys("1234567")
 
        driver.find_element(*StellarBurgersLocators.ENTER_BUTTON).click()
 
@@ -40,9 +40,9 @@ class TestStellarBurgersLogin():
 
       driver.find_element(*StellarBurgersLocators.ENTER_BUTTON_REGISTRATION_FORM_AND_RECOVERY_PAGE).click()
 
-      driver.find_element(*StellarBurgersLocators.EMAIL_FIELD_MAIN_PAGE).send_keys("MikhailShemakhanskiy8111@yandex.ru")
+      driver.find_element(*StellarBurgersLocators.EMAIL_FIELD).send_keys("MikhailShemakhanskiy8111@yandex.ru")
 
-      driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD_MAIN_PAGE).send_keys("1234567")
+      driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD).send_keys("1234567")
 
       driver.find_element(*StellarBurgersLocators.ENTER_BUTTON).click()
 
@@ -59,9 +59,9 @@ class TestStellarBurgersLogin():
 
       driver.find_element(*StellarBurgersLocators.ENTER_BUTTON_REGISTRATION_FORM_AND_RECOVERY_PAGE).click()
 
-      driver.find_element(*StellarBurgersLocators.EMAIL_FIELD_MAIN_PAGE).send_keys("MikhailShemakhanskiy8111@yandex.ru")
+      driver.find_element(*StellarBurgersLocators.EMAIL_FIELD).send_keys("MikhailShemakhanskiy8111@yandex.ru")
 
-      driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD_MAIN_PAGE).send_keys("1234567")
+      driver.find_element(*StellarBurgersLocators.PASSWORD_FIELD).send_keys("1234567")
 
       driver.find_element(*StellarBurgersLocators.ENTER_BUTTON).click()
 
